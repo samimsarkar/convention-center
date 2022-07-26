@@ -1,0 +1,55 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.btn-color{
+    color: #0d6efd;
+}
+/*-------------------------
+  Styling Packeges Section
+--------------------------*/
+ul.package-info {
+    list-style-image: url('images/list-icon.svg');
+}
+
+.regular-choose-btn {
+    background-color: #FEF5FA;
+    max-width: 250px;
+}
+
+.badge {
+    z-index: 1;
+}
+
+.accordion-item {
+    margin: 7px 0;
+    border: 1px solid lightgrey;
+}
+
+.accordion-header {
+    margin-bottom: 0;
+    border: 1px solid lightgrey;
+}
+
+/*------------------------
+Styles for footer Section
+-------------------------*/
+.social-share img {
+    max-width: 200px;
+}
+
+/*---------------
+  Media Queries
+----------------*/
+@media screen and (max-width: 721px) {
+    .carousel-caption {
+        font-size: 50%;
+    }
+}
+
